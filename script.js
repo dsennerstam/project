@@ -1,4 +1,4 @@
-const element =  document.querySelector('.bounce')
+const element =  document.querySelector('.cover')
 element.classList.add('animated', 'zoomInRight');
 
 

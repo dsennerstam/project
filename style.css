@@ -106,6 +106,25 @@ a {
 
 
 
+.bounce1:hover {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+  }
+
+  .bounce2:hover {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+  }
+
+
+  .cover:hover {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+  }
+
 /***********************************************************************
  *  Footer
  **********************************************************************/

@@ -3,6 +3,10 @@ body {
     font-family: Arial;
 }
 
+h2   {
+    text-align: center;
+}
+
 .zone {
     /*padding:30px 50px;*/
     cursor:pointer;
@@ -37,6 +41,21 @@ body {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+
+/* @media only screen and (max-width: 500px) {
+    .cover {
+        background-image: url("./img/javascript-logo.png");
+        width: 100%;
+        height: auto;
+    }
+} */
+
 .push {
     margin-left: auto;
 }
@@ -61,7 +80,7 @@ a {
  **********************************************************************/
 .container {
     /*show heigh: auto*/
-    height: 70vh; 
+    height: 60vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,12 +111,12 @@ a {
 
 
 
-.box:hover {
+/* .box:hover {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
     -o-transform: rotate(-7deg);
     transform: rotate(-7deg);
-}
+} */
 
 .box > img {
     width: 100%;
@@ -108,8 +127,8 @@ a {
 
 .bounce1:hover {
     animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
   }
 
   .bounce2:hover {
@@ -119,11 +138,6 @@ a {
   }
 
 
-  .cover:hover {
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 3;
-  }
 
 /***********************************************************************
  *  Footer
@@ -138,13 +152,11 @@ footer {
  *  Green Background
  **********************************************************************/
 .green {
-    background: #56B870; /* Old browsers */
-    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
-    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+ background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
 }
 
 /***********************************************************************
@@ -177,12 +189,10 @@ footer {
  *  Blue Background
  **********************************************************************/
 .blue {
-    background: #7abcff; /* Old browsers */
-    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
 }
 
